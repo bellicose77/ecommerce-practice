@@ -7,7 +7,7 @@ const Shop = () => {
            <div className='products-container'>
                <h2>This is a shop</h2>
            </div> 
-            <div className='Cart-container'>
+            <div className='cart-container'>
                 <h2>Shopping Cart</h2>
             </div> 
         </div>
