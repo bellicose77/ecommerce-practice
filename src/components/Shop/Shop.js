@@ -14,7 +14,9 @@ const Shop = () => {
         <div className='shop'>
            <div className='products-container'>
                <h2>Total Products:{products.length}</h2>
-               <Product products={products}></Product>
+               {
+                   products.map(product=><Product product={product}></Product>)
+               }
            </div> 
             <div className='cart-container'>
                 <h2>Shopping Cart</h2>
