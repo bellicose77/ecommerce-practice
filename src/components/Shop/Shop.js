@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Shop.css'
 
 const Shop = () => {
+    const[products,setProducts]=useState([])
     return (
         <div className='shop'>
            <div className='products-container'>
