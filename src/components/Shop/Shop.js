@@ -9,8 +9,8 @@ const Shop = () => {
         .then(res =>res.json())
         .then(data=>setProducts(data))
     },[]);
-    const handleButton = () =>{
-        console.log('Clicked')
+    const handleButton = (product) =>{
+        console.log(product)
     }
     // console.log(products)
     return (

@@ -10,7 +10,7 @@ const Product = ({product,handleButton}) => {
             <p>{price}</p>
             <p>{stock}</p>
         </div>
-        <button onClick={handleButton}>Add to Cart</button>
+        <button onClick={()=>handleButton(product)}>Add to Cart</button>
         </div>
     );
 };
